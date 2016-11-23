@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RemoveCustomHeaders</id>
+    <title>Remove Custom Headers</title>
+    <version>1.0.0</version>
+    <authors>tjrobinson</authors>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Removes custom HTTP headers for Azure App Service web applications</description>
+    <tags>http header security</tags>
+  </metadata>
+  <files>
+    <file src="..\src\*.*" target="content" />
+  </files>
+</package>
