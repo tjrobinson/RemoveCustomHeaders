@@ -3,12 +3,14 @@
   <metadata>
     <id>RemoveCustomHeaders</id>
     <title>Remove Custom Headers</title>
-    <version>1.0.0</version>
+    <version>$version$</version>
+    <iconUrl>https://raw.githubusercontent.com/tjrobinson/RemoveCustomHeaders/master/build/icon.png</iconUrl>
     <authors>tjrobinson</authors>
-    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/tjrobinson/RemoveCustomHeaders</projectUrl>
+    <licenseUrl>https://opensource.org/licenses/Apache-2.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Removes custom HTTP headers for Azure App Service web applications</description>
-    <tags>http header security</tags>
+    <description>Removes custom HTTP Response headers for Azure App Service web applications including Server, X-Powered-By, X-AspNet-Version and X-AspNetMvc-Version</description>
+    <tags>http header security response</tags>
   </metadata>
   <files>
     <file src="..\src\*.*" target="content" />

@@ -1,1 +1,1 @@
-nuget pack RemoveCustomHeaders.nuspec
+nuget pack RemoveCustomHeaders.nuspec -properties version="1.0.1"
