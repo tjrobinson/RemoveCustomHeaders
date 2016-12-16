@@ -8,7 +8,7 @@ https://www.siteextensions.net/packages/RemoveCustomHeaders
 
 This extension is just a simple wrapper over the following `ApplicationHost.xdt` file:
 
-'''xml
+```xml
 <?xml version="1.0"?>
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
   <system.webServer>
