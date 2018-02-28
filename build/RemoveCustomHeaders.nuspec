@@ -10,7 +10,10 @@
     <licenseUrl>https://opensource.org/licenses/Apache-2.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Removes custom HTTP Response headers for Azure App Service web applications including Server, X-Powered-By, X-AspNet-Version and X-AspNetMvc-Version</description>
-    <tags>http header security response</tags>
+    <tags>AzureSiteExtension http header security response</tags>
+    <packageTypes>
+      <packageType name="AzureSiteExtension" />
+    </packageTypes>
   </metadata>
   <files>
     <file src="..\src\*.*" target="content" />
