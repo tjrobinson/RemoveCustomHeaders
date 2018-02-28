@@ -2,7 +2,7 @@
 
 Removes custom HTTP response headers for Azure App Service web applications including `Server`, `X-Powered-By`, `X-AspNet-Version` and `X-AspNetMvc-Version`.
 
-https://www.siteextensions.net/packages/RemoveCustomHeaders
+https://www.nuget.org/packages/RemoveCustomHeaders
 
 # How does it work?
 
